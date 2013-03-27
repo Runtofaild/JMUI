@@ -1,3 +1,6 @@
+//mobile base framework
+//by TAT.Csonlai
+
 //base
 (function(){
 	var cm={
@@ -642,6 +645,7 @@ cm.$package(function(cm){
 				}
 			});
 		},
+		//快速响应点击事件
 		tap:function(ele,handler){
 			//按下松开之间的移动距离小于20，认为发生了tap
 			var TAP_DISTANCE = 20;
@@ -705,6 +709,7 @@ cm.$package(function(cm){
 			customEventHandlers.push(evtOpt);
 			
 		},
+		//长按事件
 		hold:function(ele,handler){
 			//按下松开之间的移动距离小于20，认为点击生效
 			var HOLD_DISTANCE = 20;
@@ -758,6 +763,7 @@ cm.$package(function(cm){
 
 			customEventHandlers.push(evtOpt);	
 		},
+		//滑动事件
 		swipe:function(ele,handler){
 			//按下之后移动30px之后就认为swipe开始
 			var SWIPE_DISTANCE = 30;
@@ -827,6 +833,7 @@ cm.$package(function(cm){
 
 			customEventHandlers.push(evtOpt);				
 		},
+		//变形（缩放，旋转）
 		transform:function(ele,handler){
 			var pt_pos1;
 			var pt_pos2;
@@ -879,6 +886,7 @@ cm.$package(function(cm){
 
 			customEventHandlers.push(evtOpt);		
 		},
+		//滚动开始
 		scrollstart:function(ele,handler){
 			var isScrolling;
 			var scrollTimeId;
@@ -908,6 +916,7 @@ cm.$package(function(cm){
 			evtOpt.actions["scroll"] = scrollHandler;
 			customEventHandlers.push(evtOpt);
 		},
+		//滚动结束
 		scrollend:function(ele,handler){
 			var scrollTimeId;
 			var scrollHandler = function(e){
@@ -931,6 +940,7 @@ cm.$package(function(cm){
 			evtOpt.actions["scroll"] = scrollHandler;
 			customEventHandlers.push(evtOpt);
 		},
+		//滚动到底部
 		scrolltobottom:function(ele,handler){
 			var body = document.body;
 			var scrollHandler = function(e){
@@ -999,6 +1009,7 @@ cm.$package(function(cm){
 	var $D = cm.dom,
 		$E = cm.event;
 	var support = {
+		//是否支持fixed定位
 		fixed:(function(){
 			var container = document.body;
 			var el = $D.node('div');			    
