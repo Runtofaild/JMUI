@@ -4,8 +4,8 @@ body {
 	width:90%;
 }
 ::selection {
-background: rgb(76, 196, 23);
-color: white;
+	background: rgb(76, 196, 23);
+	color: white;
 }
 
 
@@ -25,12 +25,12 @@ color: white;
 	font-size:19pt;
 	clear:both;
 	list-style:none;
-	
+
 }
 .navUl li {
 	float:left;
 	margin:0 40px 5px 0;
-	
+
 }
 .navUl li a {
 	text-decoration:none;
@@ -38,11 +38,11 @@ color: white;
 }
 .main {
 	clear:both;
-	
+
 }
 .mainleft {
 	float:left;
-    width:20%;
+	width:20%;
 	color:white;
 	font-size:20pt;
 	text-align:center;
@@ -55,7 +55,7 @@ color: white;
 }
 .mainspan {
 	line-height:100px;
-	
+
 	margin-bottom:5px; 
 }
 .download {
@@ -94,45 +94,72 @@ color: white;
 /*彩色线*/
 .progress-bar {
 	clear:both;
-  height: 5px;
-  width: 100%;
-  margin-bottom: 30px;
-  *zoom: 1;
+	height: 5px;
+	width: 100%;
+	margin-bottom: 30px;
+	*zoom: 1;
 }
 .progress-bar .bar {
-  float: left;
-  width: 0;
-  background-color: #008287;
-  height: 100%;
+	float: left;
+	width: 0;
+	background-color: #008287;
+	height: 100%;
 }
 .progress-bar:before,
 .progress-bar:after {
-  display: table;
-  content: "";
+	display: table;
+	content: "";
 }
 .progress-bar:after {
-  clear: both;
+	clear: both;
 }
 
 .bg-color-blue {
-  background-color: #2d89ef !important;
+	background-color: #2d89ef !important;
 }
 .bg-color-blueDark {
-  background-color: #2b5797 !important;
+	background-color: #2b5797 !important;
 }
 .bg-color-green {
-  background-color: #00a300 !important;
+	background-color: #00a300 !important;
 }
 .bg-color-greenLight {
-  background-color: #99b433 !important;
+	background-color: #99b433 !important;
 }
 .bg-color-greenDark {
-  background-color: #1e7145 !important;
+	background-color: #1e7145 !important;
 }
 .bg-color-red {
-  background-color: #b91d47 !important;
+	background-color: #b91d47 !important;
 }
 .bg-color-yellow {
-  background-color: #ffc40d !important;
+	background-color: #ffc40d !important;
+}
+@media all and (max-width:640px){
+	.secondtitle {
+		font-size: 20pt;
+		display: block;
+}
+.mainspan {
+	line-height: 100px;
+	margin-bottom: 10px;
+}	
+.mainleft {
+	float:left;
+	width:70%;
+	color:white;
+	font-size:20pt;
+	text-align:center;
+}
+.mainright {
+	float:left;
+
+	width:65%;
+	height:400px;
+}
+.navUl li {
+	float: left;
+	margin: 0 30px 5px 0;
 }
 
+}

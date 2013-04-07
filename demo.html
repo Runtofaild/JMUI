@@ -4,68 +4,70 @@
 	<meta charset="UTF-8">
 	<title>JXMUI——DEMO展示</title>
 	<script type="text/javascript">
-		
+
 	</script>
-  <link href="css/main.css" rel="stylesheet" type="text/css" />
-  <link href="css/typo.css" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="css/mui-base.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-swipechange.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-toolbar.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-button.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-checkbox.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-input.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-radio.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-list.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-dialog.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-slider.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-toggleswitch.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-progress.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-select.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-imageswitch.css" />
-<link rel="stylesheet" type="text/css" href="css/mui-toolbar.css" />
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	<link href="css/typo.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/mui-base.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-swipechange.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-toolbar.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-button.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-checkbox.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-input.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-radio.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-list.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-dialog.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-slider.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-toggleswitch.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-progress.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-select.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-imageswitch.css" />
+	<link rel="stylesheet" type="text/css" href="css/mui-toolbar.css" />
 
-<style>
-	body {
-		margin:0 auto;
-		width:1000px;
-	}
-	.btn {
-	width:150px;
-	display:inline;
-	margin-top:10px;
-	}
+	<style>
+		body {
+			margin:0 auto;
+			width:1000px;
+		}
+		.btn {
+			width:150px;
+			display:inline;
+			margin-top:10px;
+		}
 
-	.row:before, .row:after {
-		display: table;
-		line-height: 0;
-		content: "";
-	}
-	.row:after {
-		clear: both;
-	}
-	.spanhalf {
-		float:left;
-		margin:20px 30px 20px 0;
-	}
-	.spanhalf1 {
-		float:left;
-		margin:0 20px 0 0;
-	}
-	.dialogbtn {
-		margin-top:20px;
-	}
-	.btn_group.vertical > .btn {
-		width: 100%;
-		height: 60px;
-	}
-	
-</style>
+		.row:before, .row:after {
+			display: table;
+			line-height: 0;
+			content: "";
+		}
+		.row:after {
+			clear: both;
+		}
+		.spanhalf {
+			float:left;
+			margin:20px 30px 20px 0;
+		}
+		.spanhalf1 {
+			float:left;
+			margin:0 20px 0 0;
+		}
+		.dialogbtn {
+			margin-top:20px;
+		}
+		.btn_group.vertical > .btn {
+			width: 100%;
+			height: 60px;
+		}
+		.progress {
+			margin-top:60px;
+		}
+	</style>
 </head>
 <body>
 	<header id="header">
 		<div class="title"><span class="maintitle">JX MUI</span>
-			<span class="secondtitle">———— Mobile UI</span>
+			<span class="secondtitle" style="display:inline;">———— Mobile UI</span>
 		</div>
 		<nav>
 			<ul class="navUl">
@@ -91,101 +93,101 @@
 			<h1> Buttons</h1>
 			<div class="spanhalf">
 				<div>
-			<div class="spanhalf1">
-				<button id="w_button" class="btn btn_white" style="display:block;">
-					<span class="btn_text">button</span>
-				</button>
-				<button id="bl_button" class="btn btn_black">
-				<span class="btn_text">button</span>
-				</button>
-			
-			</div>	
-				<div class="spanhalf1">
-				<button id="w_button" class="btn btn_green" style="display:block;">
-					<span class="btn_text">button</span>
-				</button>
-				<button id="bl_button" class="btn btn_blue">
-				<span class="btn_text">button</span>
-				</button>
-			
-			</div>	
-		<div class="spanhalf1">		
-							<button id="g_icon_l_button" class="btn btn_green btn_icon" style="display:block;">
-				<span class="left_icon"></span>
-				<span class="btn_text">button</span>
-			</button>				
-			<button id="g_icon_r_button" class="btn btn_green btn_icon">
-				<span class="right_icon"></span>
-				<span class="btn_text">button</span>
-			</button>				
-		</div>
-	</div>
-			<div id="b_btn_list" class="btn_group" style="margin:0;width:500px;">
-				<button class="btn btn_blue"><span class="btn_text">1</span></button>
-				<button class="btn btn_blue"><span class="btn_text">2</span></button>
-				<button class="btn btn_blue"><span class="btn_text">3</span></button>
-			</div>	
-			
-	</div>
-		<div class="spanhalf" style="width:400px;">
-		
-			<div id="w_v_btn_list" class="btn_group vertical" style="width:150px;margin-right:30px;float:left">
+					<div class="spanhalf1">
+						<button id="w_button" class="btn btn_white" style="display:block;">
+							<span class="btn_text">button</span>
+						</button>
+						<button id="bl_button" class="btn btn_black">
+							<span class="btn_text">button</span>
+						</button>
+
+					</div>	
+					<div class="spanhalf1">
+						<button id="w_button" class="btn btn_green" style="display:block;">
+							<span class="btn_text">button</span>
+						</button>
+						<button id="bl_button" class="btn btn_blue">
+							<span class="btn_text">button</span>
+						</button>
+
+					</div>	
+					<div class="spanhalf1">		
+						<button id="g_icon_l_button" class="btn btn_green btn_icon" style="display:block;">
+							<span class="left_icon"></span>
+							<span class="btn_text">button</span>
+						</button>				
+						<button id="g_icon_r_button" class="btn btn_green btn_icon">
+							<span class="right_icon"></span>
+							<span class="btn_text">button</span>
+						</button>				
+					</div>
+				</div>
+				<div id="b_btn_list" class="btn_group" style="margin:0;width:500px;">
+					<button class="btn btn_blue"><span class="btn_text">1</span></button>
+					<button class="btn btn_blue"><span class="btn_text">2</span></button>
+					<button class="btn btn_blue"><span class="btn_text">3</span></button>
+				</div>	
+
+			</div>
+			<div class="spanhalf" style="width:400px;">
+
+				<div id="w_v_btn_list" class="btn_group vertical" style="width:150px;margin-right:30px;float:left">
 					<button class="btn btn_white"><span class="btn_text">1</span></button>
 					<button class="btn btn_white"><span class="btn_text">2</span></button>
 					<button class="btn btn_white"><span class="btn_text">3</span></button>
 				</div>	
-			<div id="b_v_btn_list" class="btn_group vertical" style="width:150px;float:left;">
-				<button class="btn btn_black"><span class="btn_text">1</span></button>
-				<button class="btn btn_black"><span class="btn_text">2</span></button>
-				<button class="btn btn_black"><span class="btn_text">3</span></button>
-			</div>
-	
-		</div>
-	</div>
+				<div id="b_v_btn_list" class="btn_group vertical" style="width:150px;float:left;">
+					<button class="btn btn_black"><span class="btn_text">1</span></button>
+					<button class="btn btn_black"><span class="btn_text">2</span></button>
+					<button class="btn btn_black"><span class="btn_text">3</span></button>
+				</div>
 
-	
+			</div>
+		</div>
+
+
 
 		<div class="row">
-		
+
 			<div class="spanhalf" style="width:400px;">
 				<h1>Checkboxes</h1>
 				<label id="checkbox" class="checkbox checkbox_white" for="cb0" style="margin:20px 0;">
 					<input id="cb0" name="cb0" type="checkbox" />
 					<span class="checkbox_text">0</span>
 				</label>
-		
+
 
 				<fieldset id="bl_checkboxlist" class="checkbox_group">
 					<label class="checkbox checkbox_black" for="cb11">
 						<input id="cb11" name="cb11" type="checkbox" />
 						<span class="checkbox_text">1</span>
 					</label>
-				
+
 					<label class="checkbox checkbox_black" for="cb12">
 						<input id="cb12" name="cb12" type="checkbox" />
 						<span class="checkbox_text">2</span>
 					</label>
-				
+
 					<label class="checkbox checkbox_black" for="cb13">
 						<input id="cb13" name="cb13" type="checkbox" />
 						<span class="checkbox_text">3</span>
 					</label>
 				</fieldset>
 
-			
+
 				<fieldset id="v_checkboxlist" class="checkbox_group vertical" style="margin-top:10px">
 					<label class="checkbox checkbox_white" for="cb4">
 						<input id="cb4" name="cb4" type="checkbox" />
 						<span class="checkbox_icon"></span>
 						<span class="checkbox_text">1</span>
 					</label>
-				
+
 					<label class="checkbox checkbox_white" for="cb5">
 						<input id="cb5" name="cb5" type="checkbox" />
 						<span class="checkbox_icon"></span>
 						<span class="checkbox_text">2</span>
 					</label>
-				
+
 					<label class="checkbox checkbox_white" for="cb6">
 						<input id="cb6" name="cb6" type="checkbox" />
 						<span class="checkbox_icon"></span>
@@ -199,34 +201,29 @@
 						<span class="checkbox_icon"></span>
 						<span class="checkbox_text">1</span>
 					</label>
-				
+
 					<label class="checkbox checkbox_black" for="cb15">
 						<input id="cb15" name="cb15" type="checkbox" />
 						<span class="checkbox_icon"></span>
 						<span class="checkbox_text">2</span>
 					</label>
-				
+
 					<label class="checkbox checkbox_black" for="cb16">
 						<input id="cb16" name="cb16" type="checkbox" />
 						<span class="checkbox_icon"></span>
 						<span class="checkbox_text">3</span>
 					</label>
 				</fieldset>
-					
+
 			</div>
 
-
-
-
-
-			<div class="spanhalf" style="width:400px;"> 
-		
+			<div class="spanhalf" style="width:400px;"> 		
 				<h1>Radio</h1>
 				<label id="bl_radio" for="radio21" class="radio radio_black" style="margin:20px 0;">
 					<input id="radio21" type="radio" name="radio" value="0"/>
 					<span class="radio_text">0</span>
 				</label>
-				
+
 				<fieldset id="radioList" class="radio_group">
 					<label for="radio1" class="radio radio_white">
 						<input id="radio1" type="radio" name="radio" value="1"/>
@@ -243,8 +240,6 @@
 						<span class="radio_text">3</span>
 					</label>
 				</fieldset>
-
-
 				<fieldset id="v_radioList" class="radio_group vertical" style="margin-top:10px;">
 					<label for="radio4" class="radio radio_white">
 						<input id="radio4" type="radio" name="radio" value="4"/>
@@ -257,7 +252,6 @@
 						<span class="radio_icon"></span>
 						<span class="radio_text">5</span>
 					</label>
-
 					<label for="radio6" class="radio radio_white">
 						<input id="radio6" type="radio" name="radio" value="6"/>
 						<span class="radio_icon"></span>
@@ -287,9 +281,9 @@
 			</div>
 		</div>	
 
-	
+
 		<div class="row">
-			  <div class="spanhalf" style="width:300px;">
+			<div class="spanhalf" style="width:300px;">
 				<h1>Progress</h1>
 				<div id="progress" class="progress" style="margin-top:20px;">
 					<div class="progress_wrap">
@@ -297,68 +291,68 @@
 						<div class="bar bar_image"></div>
 					</div>
 				</div>
-				<div id="progress_g" class="progress" style="margin-top:60px;">
+				<div id="progress_g" class="progress" >
 					<div class="progress_wrap">
 						<span class="bar_text"></span>
 						<div class="bar bar_green"></div>
 					</div>
 				</div>
-				<div id="progress_b" class="progress" style="margin-top:60px;">
+				<div id="progress_b" class="progress" >
 					<div class="progress_wrap">
 						<span class="bar_text"></span>
 						<div class="bar bar_blue"></div>
 					</div>
 				</div>
-				<div id="progress_y" class="progress" style="margin-top:60px;">
+				<div id="progress_y" class="progress">
 					<div class="progress_wrap">
 						<span class="bar_text"></span>
 						<div class="bar bar_yellow"></div>
 					</div>
 				</div>
 			</div>
-	
+
 
 			<div class="spanhalf" style="width:300px;">
-						<h1>Text Input</h1>
+				<h1>Text Input</h1>
 				<p>
-					<input type="text" class="input input_white" placeholder="text input" style="margin-top:20px;"></input>
-					<textarea id="textarea" class="input input_white" placeholder="textarea" style="margin-top:10px;"></textarea>
+				<input type="text" class="input input_white" placeholder="text input" style="margin-top:20px;"></input>
+				<textarea id="textarea" class="input input_white" placeholder="textarea" style="margin-top:10px;"></textarea>
 				</p>
-			<p>
-					<div class="input_group" style="margin-top:10px;">
-						<input type="text" class="input input_white" placeholder="text input"></input>
-						<input type="text" class="input input_white" placeholder="text input"></input>
-						<input type="text" class="input input_white" placeholder="text input"></input>
-					</div>
-				</p>
+				<p>
+				<div class="input_group" style="margin-top:10px;">
+					<input type="text" class="input input_white" placeholder="text input"></input>
+					<input type="text" class="input input_white" placeholder="text input"></input>
+					<input type="text" class="input input_white" placeholder="text input"></input>
 				</div>
+				</p>
+			</div>
 
-				<div class="spanhalf" style="margin-top:70px;width:300px;">
-				
+			<div class="spanhalf" style="margin-top:70px;width:300px;">
+
 				<p>
-					<div class="icon_input icon_input_white" style="margin-top:20px;">
+				<div class="icon_input icon_input_white" style="margin-top:20px;">
+					<span class="input_icon"></span>
+					<input type="text" placeholder="icon input"/>
+				</div>
+				</p>
+				<p>
+				<textarea id="autoGrowTextArea" class="input input_white" placeholder="auto grow textarea" style="margin-top:10px;"></textarea>
+				</p>
+				<p>
+				<div class="icon_input_group" style="margin-top:10px;">
+					<div class="icon_input icon_input_white">
+						<span class="input_icon"></span>
+						<input type="text" placeholder="icon input" />
+					</div>
+					<div class="icon_input icon_input_white">
 						<span class="input_icon"></span>
 						<input type="text" placeholder="icon input"/>
 					</div>
-					</p>
-						<p>
-					<textarea id="autoGrowTextArea" class="input input_white" placeholder="auto grow textarea" style="margin-top:10px;"></textarea>
-					</p>
-				<p>
-					<div class="icon_input_group" style="margin-top:10px;">
-						<div class="icon_input icon_input_white">
-							<span class="input_icon"></span>
-							<input type="text" placeholder="icon input" />
-						</div>
-						<div class="icon_input icon_input_white">
-							<span class="input_icon"></span>
-							<input type="text" placeholder="icon input"/>
-						</div>
-						<div class="icon_input icon_input_white">
-							<span class="input_icon"></span>
-							<input type="text" placeholder="icon input" />
-						</div>
+					<div class="icon_input icon_input_white">
+						<span class="input_icon"></span>
+						<input type="text" placeholder="icon input" />
 					</div>
+				</div>
 				</p>
 
 			</div>
@@ -369,43 +363,43 @@
 		<div class="row">
 			<div class="spanhalf">
 				<h1>Toggle Switch</h1>
-			    <div id="toggleSwitch" class="toggle_switch" style="display:block;margin-top:20px;">
-			    	<div class="toggle_wrap">
+				<div id="toggleSwitch" class="toggle_switch" style="display:block;margin-top:20px;">
+					<div class="toggle_wrap">
 						<div class="toggle_text">
-					    	<span class="toggle_text_blue">on</span>
-					    	<span class="toggle_text_white">off</span>
+							<span class="toggle_text_blue">on</span>
+							<span class="toggle_text_white">off</span>
 						</div>
-					<a class="toggle_handler toggle_handler_white"></a>
+						<a class="toggle_handler toggle_handler_white"></a>
 					</div>
 				</div>
-			    <div id="bl_toggleSwitch" class="toggle_switch" style="display:block;margin-top:30px;">
-			    	<div class="toggle_wrap">
+				<div id="bl_toggleSwitch" class="toggle_switch" style="display:block;margin-top:30px;">
+					<div class="toggle_wrap">
 						<div class="toggle_text">
-					    	<span class="toggle_text_blue">on</span>
-					    	<span class="toggle_text_black">off</span>
+							<span class="toggle_text_blue">on</span>
+							<span class="toggle_text_black">off</span>
 						</div>
-					<a class="toggle_handler toggle_handler_black"></a>
+						<a class="toggle_handler toggle_handler_black"></a>
 					</div>
 				</div>
-			    <div id="b_toggleSwitch" class="toggle_switch" style="display:block;margin-top:30px;">
-			    	<div class="toggle_wrap">
+				<div id="b_toggleSwitch" class="toggle_switch" style="display:block;margin-top:30px;">
+					<div class="toggle_wrap">
 						<div class="toggle_text">
-					    	<span class="toggle_text_blue">on</span>
-					    	<span class="toggle_text_deepblue">off</span>
+							<span class="toggle_text_blue">on</span>
+							<span class="toggle_text_deepblue">off</span>
 						</div>
-					<a class="toggle_handler toggle_handler_blue"></a>
+						<a class="toggle_handler toggle_handler_blue"></a>
 					</div>
 				</div>
 			</div>
-		
 
 
-	
-	
+
+
+
 			<div class="spanhalf">
 				<h1>Image Switch</h1>
 				<div id='image_slider' class='imagechange' style="margin-top:20px;">
-				  	<div class="wrap">
+					<div class="wrap">
 						<div>
 							<img src="http://www.cnblogs.com/images/cnblogs_com/Cson/290336/t_3a.jpg">
 						</div>
@@ -421,43 +415,39 @@
 						<div>
 							<img src="http://www.cnblogs.com/images/cnblogs_com/Cson/290336/t_1a.jpg">
 						</div>
-					 </div>
-					 <ul class="btnsWrap">
-					 </ul>
+					</div>
+					<ul class="btnsWrap">
+					</ul>
 				</div>
 			</div>
-	
 
-
-	
-		
 
 			<div class="spanhalf" style="margin-left: 55px;">		
 				<h1>Select</h1>		
-			    <div id="w_menuSelector" class="select select_white" style="margin-top:20px;">
-			    	<span class="select_text"></span>
-			    	<select>
-			    		<option>cson</option>
-			    		<option>小c</option>
-			    	</select>
-			    </div>
-			    <div id="g_menuSelector" class="select select_green" style="margin-top:20px;">
-			    	<span class="select_text"></span>
-			    	<select>
-			    		<option>cson</option>
-			    		<option>小c</option>
-			    	</select>
-			    </div>
+				<div id="w_menuSelector" class="select select_white" style="margin-top:20px;">
+					<span class="select_text"></span>
+					<select>
+						<option>cson</option>
+						<option>小c</option>
+					</select>
+				</div>
+				<div id="g_menuSelector" class="select select_green" style="margin-top:20px;">
+					<span class="select_text"></span>
+					<select>
+						<option>cson</option>
+						<option>小c</option>
+					</select>
+				</div>
 
 
-			    <div id="bl_menuSelector" class="select select_black" style="margin-top:20px;">
-			    	<span class="select_text"></span>
-			    	<select>
-			    		<option>cson</option>
-			    		<option>小c</option>
-			    	</select>
-			    </div>
-	
+				<div id="bl_menuSelector" class="select select_black" style="margin-top:20px;">
+					<span class="select_text"></span>
+					<select>
+						<option>cson</option>
+						<option>小c</option>
+					</select>
+				</div>
+
 			</div>
 		</div>
 
@@ -465,52 +455,52 @@
 			<div class="spanhalf">
 				<h1>Slider </h1>
 				<div class="spanhalf" style="width:300px;">
-				    <div id="slider" class="slider slider_white" style="margin-top:20px;">
-				    	<input type="range" />
-				    	<a class="slider_handler"></a>
-				    </div>		
-				    <div id="w_slider" class="slider slider_white" style="margin-top:30px;">
-				    	<input type="range" />
-				    	<div class="slider_range white"></div>
-				    	<a class="slider_handler"></a>
-				    </div>	
-				    <div id="b_slider" class="slider slider_white" style="margin-top:30px;">
-				    	<input type="range" />
-				    	<div class="slider_range blue"></div>
-				    	<a class="slider_handler"></a>
-				    </div>	
-				    <div id="g_slider" class="slider slider_white" style="margin-top:30px;">
-				    	<input type="range" />
-				    	<div class="slider_range green"></div>
-				    	<a class="slider_handler"></a>
-				    </div>	
+					<div id="slider" class="slider slider_white" style="margin-top:20px;">
+						<input type="range" />
+						<a class="slider_handler"></a>
+					</div>		
+					<div id="w_slider" class="slider slider_white" style="margin-top:30px;">
+						<input type="range" />
+						<div class="slider_range white"></div>
+						<a class="slider_handler"></a>
+					</div>	
+					<div id="b_slider" class="slider slider_white" style="margin-top:30px;">
+						<input type="range" />
+						<div class="slider_range blue"></div>
+						<a class="slider_handler"></a>
+					</div>	
+					<div id="g_slider" class="slider slider_white" style="margin-top:30px;">
+						<input type="range" />
+						<div class="slider_range green"></div>
+						<a class="slider_handler"></a>
+					</div>	
 				</div>
 				<div class="spanhalf" style="margin-left:40px;" >
-			        <div id="v_slider" class="slider slider_white vertical" style="float:left;">
-				    	<input type="range" />
-				    	<a class="slider_handler"></a>
-				    </div>	
-			      	<div id="v_w_slider" class="slider slider_white vertical" style="margin-left:40px;float:left;">
-				    	<input type="range" />
-				    	<div class="slider_range white"></div>
-				    	<a class="slider_handler"></a>
-				    </div>	
-			    	<div id="v_b_slider" class="slider slider_white vertical" style="margin-left:40px;float:left;">
-				    	<input type="range" />
-				    	<div class="slider_range blue"></div>
-				    	<a class="slider_handler"></a>
-				    </div>	
-			    	<div id="v_g_slider" class="slider slider_white vertical" style="margin-left:40px;float:left;">
-				    	<input type="range" />
-				    	<div class="slider_range green"></div>
-				    	<a class="slider_handler"></a>
+					<div id="v_slider" class="slider slider_white vertical" style="float:left;">
+						<input type="range" />
+						<a class="slider_handler"></a>
+					</div>	
+					<div id="v_w_slider" class="slider slider_white vertical" style="margin-left:40px;float:left;">
+						<input type="range" />
+						<div class="slider_range white"></div>
+						<a class="slider_handler"></a>
+					</div>	
+					<div id="v_b_slider" class="slider slider_white vertical" style="margin-left:40px;float:left;">
+						<input type="range" />
+						<div class="slider_range blue"></div>
+						<a class="slider_handler"></a>
+					</div>	
+					<div id="v_g_slider" class="slider slider_white vertical" style="margin-left:40px;float:left;">
+						<input type="range" />
+						<div class="slider_range green"></div>
+						<a class="slider_handler"></a>
 					</div>
 				</div>	
-			
+
 			</div>
-	
+
 			<div class="spanhalf" style="width:100px;">
-			
+
 				<h1>Dialog</h1>
 				<input id="none" type="button" value="none effect" class="dialogbtn">
 				<input id="fade" type="button" value="fade effect" class="dialogbtn">
@@ -520,29 +510,29 @@
 			</div>
 		</div>
 		<div class="row" style="height:0;">
-				<div class="mask" style="z-index: 1000;"></div>
+			<div class="mask" style="z-index: 1000;"></div>
 
-				<div id="dialog" class="dialog" style="z-index: 1001;margin:0;left:23%;top:-300px;">
-					<div class="header">
-						<h4>Dialog Header</h4>
-					</div>
-					<div class="content">
-						<p style = "line-height:80px;text-align:center;font-size:36px;color:#333;cursor:pointer">
-							click me to hide
-						</p>
-					</div>
+			<div id="dialog" class="dialog" style="z-index: 1001;margin:0;left:23%;top:-300px;">
+				<div class="header">
+					<h4>Dialog Header</h4>
+				</div>
+				<div class="content">
+					<p style = "line-height:80px;text-align:center;font-size:36px;color:#333;cursor:pointer">
+					click me to hide
+					</p>
 				</div>
 			</div>
-	
+		</div>
 
-		
-	
-	
-	<div class="row">
-		<div class="spanhalf" style="width:200px;">
-			<h1>ToolBar </h1>
-			<div style="margin-top:20px;">
-				
+
+
+
+
+		<div class="row">
+			<div class="spanhalf" style="width:200px;">
+				<h1>ToolBar </h1>
+				<div style="margin-top:20px;">
+
 					<div class="toolbar_header header_black">
 						<h1 style="color:white;">header</h1>
 					</div>
@@ -552,9 +542,9 @@
 					<div class="toolbar_footer footer_black">
 						<h4 style="color:white;">footer</h4>
 					</div>
-			</div>
+				</div>
 
-			<div style="margin-top:30px;">
+				<div style="margin-top:30px;">
 					<div class="toolbar_header header_blue">
 						<h1>header</h1>
 					</div>
@@ -564,9 +554,9 @@
 					<div class="toolbar_footer footer_blue">
 						<h4>footer</h4>
 					</div>
-			</div>
-				
-			<div style="margin-top:30px;">
+				</div>
+
+				<div style="margin-top:30px;">
 					<div class="toolbar_header header_white">
 						<h1>header</h1>
 					</div>
@@ -576,124 +566,124 @@
 					<div class="toolbar_footer footer_white">
 						<h4>footer</h4>
 					</div>
-			</div>
-		</div>
-		<div class="spanhalf" style="width:250px;">
-			<h1>List </h1>
-			<div>
-				<ul id="l_icon_list" class="list list_white conner_round_vertical_group" style="margin-top:20px;">
-					<li class="list_item">
-						<span class="list_icon list_icon_left"></span>
-						<a  class="list_text">ListItemA</a>
-					</li>
-					<li class="list_item">
-						<span class="list_icon list_icon_left"></span>
-						<a  class="list_text">ListItemB</a>
-					</li>
-					<li class="list_item">
-						<span class="list_icon list_icon_left"></span>
-						<a  class="list_text">ListItemC</a>
-					</li>
-				</ul>
-				<ul id="list1" class="list list_white conner_round_vertical_group" style="margin-top:30px;">
-					<li class="list_item">
-						<a  class="list_text">ListItemA</a>
-					</li>
-					<li class="list_item">
-						<a  class="list_text">ListItemB</a>
-					</li>
-					<li class="list_item">
-						<a  class="list_text">ListItemC</a>
-					</li>
-				</ul>
-				
-				<ul class="list list_white read_only_list conner_round_vertical_group" style="margin-top:20px;">
-					<li class="list_item">
-						<a  class="list_text">ListItemA</a>
-					</li>
-					<li class="list_item">
-						<a  class="list_text">ListItemB</a>
-					</li>
-					<li class="list_item">
-						<a  class="list_text">ListItemC</a>
-					</li>
-				</ul>
-				
-				<ol id="n_list" class="list list_white num_list conner_round_vertical_group" style="margin-top:20px;">
-					<li class="list_item">
-						<a class="list_text">ListItemA</a>
-					</li>
-					<li class="list_item">
-						<a class="list_text">ListItemB</a>
-					</li>
-					<li class="list_item">
-						<a class="list_text">ListItemC</a>
-					</li>
-				</ol>
-
-			</div>
-		</div>
-
-		
-		<div class="spanhalf" style="width:300px;">
-			<div style="margin:70px 0 55px 0;">
-							<ul id="r_icon_list" class="list list_white conner_round_vertical_group" style="margin-top:20px;">
-					<li class="list_item">
-						<span class="list_icon list_icon_right"></span>
-						<a  class="list_text">ListItemA</a>
-					</li>
-					<li class="list_item">
-						<span class="list_icon list_icon_right"></span>
-						<a  class="list_text">ListItemB</a>
-					</li>
-					<li class="list_item">
-						<span class="list_icon list_icon_right"></span>
-						<a  class="list_text">ListItemC</a>
-					</li>
-				</ul>
 				</div>
-			<h1>Group List </h1>
-			<div>
-				<ul id="groupList" class="group_list" style="margin-top:20px;">
-					<li class="list_group">
+			</div>
+			<div class="spanhalf" style="width:250px;">
+				<h1>List </h1>
+				<div>
+					<ul id="l_icon_list" class="list list_white conner_round_vertical_group" style="margin-top:20px;">
+						<li class="list_item">
+						<span class="list_icon list_icon_left"></span>
+						<a  class="list_text">ListItemA</a>
+						</li>
+						<li class="list_item">
+						<span class="list_icon list_icon_left"></span>
+						<a  class="list_text">ListItemB</a>
+						</li>
+						<li class="list_item">
+						<span class="list_icon list_icon_left"></span>
+						<a  class="list_text">ListItemC</a>
+						</li>
+					</ul>
+					<ul id="list1" class="list list_white conner_round_vertical_group" style="margin-top:30px;">
+						<li class="list_item">
+						<a  class="list_text">ListItemA</a>
+						</li>
+						<li class="list_item">
+						<a  class="list_text">ListItemB</a>
+						</li>
+						<li class="list_item">
+						<a  class="list_text">ListItemC</a>
+						</li>
+					</ul>
+
+					<ul class="list list_white read_only_list conner_round_vertical_group" style="margin-top:20px;">
+						<li class="list_item">
+						<a  class="list_text">ListItemA</a>
+						</li>
+						<li class="list_item">
+						<a  class="list_text">ListItemB</a>
+						</li>
+						<li class="list_item">
+						<a  class="list_text">ListItemC</a>
+						</li>
+					</ul>
+
+					<ol id="n_list" class="list list_white num_list conner_round_vertical_group" style="margin-top:20px;">
+						<li class="list_item">
+						<a class="list_text">ListItemA</a>
+						</li>
+						<li class="list_item">
+						<a class="list_text">ListItemB</a>
+						</li>
+						<li class="list_item">
+						<a class="list_text">ListItemC</a>
+						</li>
+					</ol>
+
+				</div>
+			</div>
+
+
+			<div class="spanhalf" style="width:300px;">
+				<div style="margin:70px 0 55px 0;">
+					<ul id="r_icon_list" class="list list_white conner_round_vertical_group" style="margin-top:20px;">
+						<li class="list_item">
+						<span class="list_icon list_icon_right"></span>
+						<a  class="list_text">ListItemA</a>
+						</li>
+						<li class="list_item">
+						<span class="list_icon list_icon_right"></span>
+						<a  class="list_text">ListItemB</a>
+						</li>
+						<li class="list_item">
+						<span class="list_icon list_icon_right"></span>
+						<a  class="list_text">ListItemC</a>
+						</li>
+					</ul>
+				</div>
+				<h1>Group List </h1>
+				<div>
+					<ul id="groupList" class="group_list" style="margin-top:20px;">
+						<li class="list_group">
 						<div class="list_group_title list_group_blue_title">
 							<h4>Group1</h4>
 						</div>
 						<div class="list_group_body">
 							<ul class="list list_white">
 								<li class="list_item">
-									<a  class="list_text">ListItemA</a>
+								<a  class="list_text">ListItemA</a>
 								</li>
 								<li class="list_item">
-									<a  class="list_text">ListItemB</a>
+								<a  class="list_text">ListItemB</a>
 								</li>
 								<li class="list_item">
-									<a  class="list_text">ListItemC</a>
+								<a  class="list_text">ListItemC</a>
 								</li>
 							</ul>
 						</div>
-					</li>	
-					<li class="list_group">
+						</li>	
+						<li class="list_group">
 						<div class="list_group_title list_group_blue_title">
 							<h4>Group2</h4>
 						</div>
 						<div class="list_group_body">
 							<ul class="list list_white">
 								<li class="list_item">
-									<a  class="list_text">ListItemA</a>
+								<a  class="list_text">ListItemA</a>
 								</li>
 								<li class="list_item">
-									<a  class="list_text">ListItemB</a>
+								<a  class="list_text">ListItemB</a>
 								</li>
 								<li class="list_item">
-									<a  class="list_text">ListItemC</a>
+								<a  class="list_text">ListItemC</a>
 								</li>
 							</ul>
 						</div>
-					</li>	
-				</ul>
+						</li>	
+					</ul>
+				</div>
 			</div>
-		</div>
 		</div>
 	</div>
 	<footer class="footer">
