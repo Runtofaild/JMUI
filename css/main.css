@@ -36,6 +36,10 @@ body {
 	text-decoration:none;
 	color:rgb(29, 29, 29);
 }
+.qrcode {
+	margin:40px 100px 0 0;
+	float:right;	
+}
 .main {
 	clear:both;
 
@@ -140,6 +144,9 @@ body {
 		font-size: 20pt;
 		display: block;
 }
+.qrcode {
+		display:none;
+}
 .mainspan {
 	line-height: 100px;
 	margin-bottom: 10px;
@@ -159,7 +166,11 @@ body {
 }
 .navUl li {
 	float: left;
-	margin: 0 30px 5px 0;
+	margin: 0 20px 5px 0;
 }
-
+.copyright {
+	clear: both;
+	float: left;	
+	font-size: 8pt;
+}
 }

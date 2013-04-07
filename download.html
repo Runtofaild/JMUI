@@ -12,6 +12,9 @@
 				float:left;
 				margin-bottom: 50px;
 			}
+			.spanhalf a:hover {
+				text-decoration:none;
+			}
 			.spanhalf span {
 				color:rgb(45, 137, 239);
 				margin: 20px 0 0 40px;
@@ -21,18 +24,22 @@
 	</head>
 	<body>
 		<header id="header">
-			<div class="title"><span class="maintitle">JX MUI</span>
-				<span class="secondtitle">———— Mobile UI</span>
+			<div style="float:left">
+				<div class="title">
+					<span class="maintitle">JX MUI</span>
+					<span class="secondtitle">———— Mobile UI</span>
+				</div>
+				<nav>
+					<ul class="navUl">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="download.html">下载</a></li>
+						<li><a href="demo.html">演示</a></li>
+						<li><a href="doc.html">文档</a></li>
+					</ul>
+				</nav>
 			</div>
-			<nav>
-				<ul class="navUl">
-					<li><a href="index.html">首页</a></li>
-					<li><a href="download.html">下载</a></li>
-					<li><a href="demo.html">演示</a></li>
-					<li><a href="doc.html">文档</a></li>
-				</ul>
-			</nav>
-		</header>
+			<div class="qrcode"><img src="images/qrcode.png" style="width:110px;height:110px;"></div>
+		</header>	
 		<div class="progress-bar">
 			<div class="bar bg-color-blue" style="width: 14.27%"></div>
 			<div class="bar bg-color-blueDark" style="width: 14.27%"></div>
@@ -44,7 +51,7 @@
 		</div>
 
 		<div id="main" class="main">
-			<h1>请选择您所需要的下载方式进行下载</h1>
+			<h1>请选择您所需要的下载方式:</h1>
 			<div class="spanhalf">
 				<a href="#">	<img src="images/tar.png">
 					<span>点击下载</span>
