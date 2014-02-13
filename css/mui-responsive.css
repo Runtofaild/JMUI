@@ -1,0 +1,23 @@
+.visible-xs,.visible-sm,.visible-md,.visible-lg{
+	display: none;
+}
+@media screen and (max-width: 320px) {
+	.visible-xs{
+		display: block;
+	}
+}
+@media screen and (min-width: 320px ) and (max-width:480px ) {
+	.visible-sm{
+		display: block;
+	}
+}
+@media (min-width: 480px) and (max-width: 768px){
+	.visible-md{
+		display: block;
+	}
+}
+@media (min-width: 768px) {
+	.visible-lg{
+		display: block;
+	}
+}
